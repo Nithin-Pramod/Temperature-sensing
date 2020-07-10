@@ -1,8 +1,8 @@
 #include<LiquidCrystal.h>
 
 LiquidCrystal lcd(12, 11, 5, 4, 3, 2);
-int sensePin = A0;  //This is the Arduino Pin that will read the sensor output
-int sensorInput;    //The variable we will use to store the sensor input
+int sensePin = A0;  
+int sensorInput;   
 double temp;   
 int threshold=55;
 void setup()
